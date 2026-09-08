@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    
+    <div class="card">
+        <h1 id="title">Blackjack</h1>
+        <h3 id="info">Want to play a round?</h3>
+        <h3 >Cards: <span id="card"></span></h3>
+        <h3 id="sum">Sum:</h3>
+        <div class="buttons">
+            <button id="start" onclick="startGame()">START GAME</button>
+            <button id="new" onclick="newCard()">NEW CARD</button>
+        </div>
+        <h3 id="player"></h3>
+    </div>
+    <audio id="cashoutSound" src="cashregister.mp3" 
+    preload="auto"></audio>
+    <audio id="faah" src="fahhh_KcgAXfs.mp3" 
+    preload="auto"></audio>
+    <button id="cashoutBtn">Cash Out</button>
+<script src="index.js"></script>
+</body>
+</html>
